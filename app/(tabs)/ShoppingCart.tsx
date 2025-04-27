@@ -14,7 +14,7 @@ import { cong } from '../src/cong'; // 確保 Firebase 配置正確
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import Shopping from '../ShoppingCard/ShoppingList';
-import AR from '../AR/AR';
+
 
 //import LoginScreen from "../getData/LoginScreen";
 
@@ -22,11 +22,11 @@ import AR from '../AR/AR';
 const explore = () => {
     return (
         <View>
-            {/* <Text>
+            <Text>
                 your ShoppingCart
             </Text>
-            <Shopping /> */}
-            <AR />
+            <Shopping />
+  
         </View>
     ); // Replace with your actual component implementation
 }
